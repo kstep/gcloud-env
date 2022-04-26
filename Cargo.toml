@@ -1,0 +1,16 @@
+[package]
+name = "gcloud-env"
+description = "Read Google Cloud Run runtime environment"
+readme = "README.md"
+license = "MIT"
+authors = ["Konstantin Stepanov <me@kstep.me>"]
+version = "0.1.0"
+edition = "2021"
+keywords = ["gcloud", "env", "config"]
+categories = ["config"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+envy = "0.4.2"
+serde = { version = "1", features = ["derive"] }
